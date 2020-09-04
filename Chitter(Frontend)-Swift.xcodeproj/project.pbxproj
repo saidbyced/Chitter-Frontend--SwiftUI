@@ -108,11 +108,11 @@
 		AE3561CE2500F3B0008B059C /* Chitter(Frontend)-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				AE3562132502562A008B059C /* Controllers */,
+				AE35621225025606008B059C /* Models */,
 				AE35621425025637008B059C /* Views */,
+				AE3562132502562A008B059C /* Controllers */,
 				AE3561D52500F3B6008B059C /* Assets.xcassets */,
 				AE3561DD2500F3B6008B059C /* Info.plist */,
-				AE35621225025606008B059C /* Models */,
 				AE3561D72500F3B6008B059C /* Preview Content */,
 			);
 			path = "Chitter(Frontend)-Swift";
