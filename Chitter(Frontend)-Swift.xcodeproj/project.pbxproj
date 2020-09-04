@@ -20,6 +20,8 @@
 		AE35620D2502474D008B059C /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE35620C2502474D008B059C /* Session.swift */; };
 		AE35620F250247FA008B059C /* Peep.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE35620E250247FA008B059C /* Peep.swift */; };
 		AE35621125025048008B059C /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE35621025025048008B059C /* Like.swift */; };
+		AE356216250257DD008B059C /* PeepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE356215250257DD008B059C /* PeepView.swift */; };
+		AE7DA5582502648D00A0B09E /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DA5572502648D00A0B09E /* Examples.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		AE35620C2502474D008B059C /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		AE35620E250247FA008B059C /* Peep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peep.swift; sourceTree = "<group>"; };
 		AE35621025025048008B059C /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		AE356215250257DD008B059C /* PeepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeepView.swift; sourceTree = "<group>"; };
+		AE7DA5572502648D00A0B09E /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 				AE35620C2502474D008B059C /* Session.swift */,
 				AE35620E250247FA008B059C /* Peep.swift */,
 				AE35621025025048008B059C /* Like.swift */,
+				AE7DA5572502648D00A0B09E /* Examples.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				AE3561D32500F3B0008B059C /* RootView.swift */,
+				AE356215250257DD008B059C /* PeepView.swift */,
 				AE3561DA2500F3B6008B059C /* LaunchScreen.storyboard */,
 			);
 			path = Views;
@@ -310,6 +316,8 @@
 				AE35620F250247FA008B059C /* Peep.swift in Sources */,
 				AE3561D22500F3B0008B059C /* SceneDelegate.swift in Sources */,
 				AE3561D42500F3B0008B059C /* RootView.swift in Sources */,
+				AE356216250257DD008B059C /* PeepView.swift in Sources */,
+				AE7DA5582502648D00A0B09E /* Examples.swift in Sources */,
 				AE35621125025048008B059C /* Like.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
