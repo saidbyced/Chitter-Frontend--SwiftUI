@@ -22,7 +22,7 @@
 		AE35621125025048008B059C /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE35621025025048008B059C /* Like.swift */; };
 		AE356216250257DD008B059C /* PeepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE356215250257DD008B059C /* PeepView.swift */; };
 		AE7DA5582502648D00A0B09E /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DA5572502648D00A0B09E /* Examples.swift */; };
-		AE7DA55C25027B7300A0B09E /* UserLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DA55B25027B7300A0B09E /* UserLoginView.swift */; };
+		AE7DA55C25027B7300A0B09E /* UserDetailEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DA55B25027B7300A0B09E /* UserDetailEntryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +63,7 @@
 		AE35621025025048008B059C /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
 		AE356215250257DD008B059C /* PeepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeepView.swift; sourceTree = "<group>"; };
 		AE7DA5572502648D00A0B09E /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
-		AE7DA55B25027B7300A0B09E /* UserLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginView.swift; sourceTree = "<group>"; };
+		AE7DA55B25027B7300A0B09E /* UserDetailEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailEntryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,7 @@
 		AE7DA5602502834F00A0B09E /* User */ = {
 			isa = PBXGroup;
 			children = (
-				AE7DA55B25027B7300A0B09E /* UserLoginView.swift */,
+				AE7DA55B25027B7300A0B09E /* UserDetailEntryView.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -334,7 +334,7 @@
 				AE3561D02500F3B0008B059C /* AppDelegate.swift in Sources */,
 				AE35620F250247FA008B059C /* Peep.swift in Sources */,
 				AE3561D22500F3B0008B059C /* SceneDelegate.swift in Sources */,
-				AE7DA55C25027B7300A0B09E /* UserLoginView.swift in Sources */,
+				AE7DA55C25027B7300A0B09E /* UserDetailEntryView.swift in Sources */,
 				AE3561D42500F3B0008B059C /* RootView.swift in Sources */,
 				AE356216250257DD008B059C /* PeepView.swift in Sources */,
 				AE7DA5582502648D00A0B09E /* Examples.swift in Sources */,
@@ -509,6 +509,7 @@
 				DEVELOPMENT_TEAM = Y3F5JHY7V5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Chitter(Frontend)-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,6 +530,7 @@
 				DEVELOPMENT_TEAM = Y3F5JHY7V5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Chitter(Frontend)-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

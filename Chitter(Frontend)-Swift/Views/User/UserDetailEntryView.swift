@@ -1,5 +1,5 @@
 //
-//  UserLoginView.swift
+//  UserDetailEntryView.swift
 //  Chitter(Frontend)-Swift
 //
 //  Created by Chris Eadie on 04/09/2020.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct UserLoginView: View {
+struct UserDetailEntryView: View {
     @State private var username: String = ""
     @State private var password: String = ""
     
@@ -38,6 +38,6 @@ struct UserLoginView: View {
 
 struct UserLoginView_Previews: PreviewProvider {
     static var previews: some View {
-        UserLoginView()
+        UserDetailEntryView()
     }
 }
