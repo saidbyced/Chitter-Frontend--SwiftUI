@@ -19,6 +19,7 @@
 		AE3562052500FA3A008B059C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3562032500FA39008B059C /* User.swift */; };
 		AE35620D2502474D008B059C /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE35620C2502474D008B059C /* Session.swift */; };
 		AE35620F250247FA008B059C /* Peep.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE35620E250247FA008B059C /* Peep.swift */; };
+		AE35621125025048008B059C /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE35621025025048008B059C /* Like.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		AE3562032500FA39008B059C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AE35620C2502474D008B059C /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		AE35620E250247FA008B059C /* Peep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peep.swift; sourceTree = "<group>"; };
+		AE35621025025048008B059C /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				AE3562032500FA39008B059C /* User.swift */,
 				AE35620C2502474D008B059C /* Session.swift */,
 				AE35620E250247FA008B059C /* Peep.swift */,
+				AE35621025025048008B059C /* Like.swift */,
 				AE3561D72500F3B6008B059C /* Preview Content */,
 			);
 			path = "Chitter(Frontend)-Swift";
@@ -283,6 +286,7 @@
 				AE35620F250247FA008B059C /* Peep.swift in Sources */,
 				AE3561D22500F3B0008B059C /* SceneDelegate.swift in Sources */,
 				AE3561D42500F3B0008B059C /* RootView.swift in Sources */,
+				AE35621125025048008B059C /* Like.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
