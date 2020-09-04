@@ -13,13 +13,14 @@ struct UserLoginView: View {
     @State private var password: String = ""
     
     var body: some View {
-        VStack {
+        VStack(alignment: .center) {
             HStack {
                 Text("Username: ")
                     .font(.headline)
                     .frame(minWidth: 123)
                 TextField("", text: $username)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .frame(maxWidth: 200)
                     .padding(.trailing)
             }
             HStack {
@@ -28,6 +29,7 @@ struct UserLoginView: View {
                     .frame(minWidth: 123)
                 SecureField("", text: $password)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .frame(maxWidth: 200)
                     .padding(.trailing)
             }
         }
