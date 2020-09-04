@@ -18,6 +18,7 @@
 		AE3562042500FA3A008B059C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3562032500FA39008B059C /* User.swift */; };
 		AE3562052500FA3A008B059C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3562032500FA39008B059C /* User.swift */; };
 		AE35620D2502474D008B059C /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE35620C2502474D008B059C /* Session.swift */; };
+		AE35620F250247FA008B059C /* Peep.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE35620E250247FA008B059C /* Peep.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		AE3561F32500F3B7008B059C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE3562032500FA39008B059C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AE35620C2502474D008B059C /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		AE35620E250247FA008B059C /* Peep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peep.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				AE3561DD2500F3B6008B059C /* Info.plist */,
 				AE3562032500FA39008B059C /* User.swift */,
 				AE35620C2502474D008B059C /* Session.swift */,
+				AE35620E250247FA008B059C /* Peep.swift */,
 				AE3561D72500F3B6008B059C /* Preview Content */,
 			);
 			path = "Chitter(Frontend)-Swift";
@@ -277,6 +280,7 @@
 				AE35620D2502474D008B059C /* Session.swift in Sources */,
 				AE3562042500FA3A008B059C /* User.swift in Sources */,
 				AE3561D02500F3B0008B059C /* AppDelegate.swift in Sources */,
+				AE35620F250247FA008B059C /* Peep.swift in Sources */,
 				AE3561D22500F3B0008B059C /* SceneDelegate.swift in Sources */,
 				AE3561D42500F3B0008B059C /* RootView.swift in Sources */,
 			);
