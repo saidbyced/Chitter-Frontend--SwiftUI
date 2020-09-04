@@ -175,11 +175,27 @@
 			isa = PBXGroup;
 			children = (
 				AE3561D32500F3B0008B059C /* RootView.swift */,
-				AE356215250257DD008B059C /* PeepView.swift */,
+				AE7DA55F2502833B00A0B09E /* Peep */,
+				AE7DA5602502834F00A0B09E /* User */,
 				AE3561DA2500F3B6008B059C /* LaunchScreen.storyboard */,
-				AE7DA55B25027B7300A0B09E /* UserLoginView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		AE7DA55F2502833B00A0B09E /* Peep */ = {
+			isa = PBXGroup;
+			children = (
+				AE356215250257DD008B059C /* PeepView.swift */,
+			);
+			path = Peep;
+			sourceTree = "<group>";
+		};
+		AE7DA5602502834F00A0B09E /* User */ = {
+			isa = PBXGroup;
+			children = (
+				AE7DA55B25027B7300A0B09E /* UserLoginView.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
