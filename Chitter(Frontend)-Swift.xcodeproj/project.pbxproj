@@ -108,16 +108,11 @@
 		AE3561CE2500F3B0008B059C /* Chitter(Frontend)-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				AE3561CF2500F3B0008B059C /* AppDelegate.swift */,
-				AE3561D12500F3B0008B059C /* SceneDelegate.swift */,
-				AE3561D32500F3B0008B059C /* RootView.swift */,
+				AE3562132502562A008B059C /* Controllers */,
+				AE35621425025637008B059C /* Views */,
 				AE3561D52500F3B6008B059C /* Assets.xcassets */,
-				AE3561DA2500F3B6008B059C /* LaunchScreen.storyboard */,
 				AE3561DD2500F3B6008B059C /* Info.plist */,
-				AE3562032500FA39008B059C /* User.swift */,
-				AE35620C2502474D008B059C /* Session.swift */,
-				AE35620E250247FA008B059C /* Peep.swift */,
-				AE35621025025048008B059C /* Like.swift */,
+				AE35621225025606008B059C /* Models */,
 				AE3561D72500F3B6008B059C /* Preview Content */,
 			);
 			path = "Chitter(Frontend)-Swift";
@@ -147,6 +142,35 @@
 				AE3561F32500F3B7008B059C /* Info.plist */,
 			);
 			path = "Chitter(Frontend)-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		AE35621225025606008B059C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE3562032500FA39008B059C /* User.swift */,
+				AE35620C2502474D008B059C /* Session.swift */,
+				AE35620E250247FA008B059C /* Peep.swift */,
+				AE35621025025048008B059C /* Like.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE3562132502562A008B059C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE3561CF2500F3B0008B059C /* AppDelegate.swift */,
+				AE3561D12500F3B0008B059C /* SceneDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AE35621425025637008B059C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE3561D32500F3B0008B059C /* RootView.swift */,
+				AE3561DA2500F3B6008B059C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
