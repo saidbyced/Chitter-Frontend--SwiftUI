@@ -11,5 +11,4 @@ import Foundation
 struct User: Codable {
     var id: Int
     var handle: String
-    var password: String
 }
