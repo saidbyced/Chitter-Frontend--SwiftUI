@@ -9,11 +9,11 @@
 import Foundation
 
 struct Session: Codable {
-    var id: Int
+    var userID: Int
     var sessionKey: String
     
-    init(user: User, sessionKey: String) {
-        self.id = user.id
-        self.sessionKey = sessionKey
+    init(user_id: Int, session_key: String) {
+        self.userID = user_id
+        self.sessionKey = session_key
     }
 }
