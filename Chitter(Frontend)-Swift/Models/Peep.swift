@@ -18,6 +18,8 @@ class Peep: Codable {
     
     init(id: Int, body: String, created_at: String, updated_at: String, user: User, likes: [Like]) {
         let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "en_GB")
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
         
         self.id = id
         self.body = body
