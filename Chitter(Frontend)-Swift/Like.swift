@@ -8,6 +8,10 @@
 
 import Foundation
 
-class Like: Codeable {
+class Like: Codable {
     var user: User
+    
+    init(user: User) {
+        self.user = user
+    }
 }
