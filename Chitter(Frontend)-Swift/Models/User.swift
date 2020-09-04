@@ -11,4 +11,9 @@ import Foundation
 class User: Codable {
     var id: Int
     var handle: String
+    
+    init(id: Int, handle: String) {
+        self.id = id
+        self.handle = handle
+    }
 }
